@@ -1,9 +1,10 @@
 import asyncio
 import discord
+import os
 
 app = discord.Client()
-
-token = "NzE2NzEyODk3MzY3MTEzNzYw.XxFEgA.Fr56UymMj0hsEZuf-DUHts4uWlM"
+access_token = os.environ["BOT_TOKEN"]
+token = "access_token"
 calcResult = 0
 
 @app.event
