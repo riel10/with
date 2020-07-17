@@ -1205,4 +1205,4 @@ async def on_message(message):
         embed.add_field(name = '초기치 : 10, 13, 1, 58', value = '성장률 : 공 1.98, 방 2.45, 순 0.36, 내구력 10.62 (전체 4.79)')
         embed.set_image(url="https://cdn.discordapp.com/attachments/716792879481225328/730226724360552529/17457360858e312c.gif")
         await message.channel.send(embed=embed)
-app.run(token)
+app.run(access_token)
